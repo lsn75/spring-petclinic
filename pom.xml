@@ -369,4 +369,10 @@
     </profile>
   </profiles>
 
+
+<scm>
+    <connection>scm:git:git@github.com:lsn75/spring-petclinic.git</connection>
+    <developerConnection>scm:git:git@github.com:lsn75/spring-petclinic.git</developerConnection>
+    <url>https://github.com/lsn75/spring-petclinic</url>
+</scm>
 </project>
