@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>3.0.1-SNAPSHOT</version>
+  <version>3.0.0-SNAPSHOT</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -372,13 +372,5 @@
     <connection>scm:git:git@github.com:lsn75/spring-petclinic.git</connection>
     <developerConnection>scm:git:git@github.com:lsn75/spring-petclinic.git</developerConnection>
     <url>https://github.com/lsn75/spring-petclinic</url>
-  <tag>HEAD</tag>
-  </scm>
-
-<distributionManagement>
-    <repository>
-        <id>absolute directory</id>
-        <url>file:///Users/slozenkov/GridU/mavenproject/localdeployment</url>
-    </repository>
-</distributionManagement>
+</scm>
 </project>
