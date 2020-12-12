@@ -1,0 +1,18 @@
+https://help.sonatype.com/repomanager3/formats/maven-repositories
+https://help.sonatype.com/repomanager3/formats/maven-repositories#MavenRepositories-ConfiguringApacheMaven
+https://github.com/sonatype/nexus-book-examples/tree/nexus-3.x/maven/another-project
+https://github.com/sonatype/nexus-book-examples/blob/nexus-3.x/maven/settings/settings-localrepo.xml
+https://stackoverflow.com/questions/42265742/what-is-the-location-of-files-war-and-jar-pushed-to-nexus-3-from-maven
+
+
+[INFO] --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ spring-petclinic ---
+Downloading from nexus: http://localhost:8081/repository/maven-snapshots/org/springframework/samples/spring-petclinic/3.0.2-SNAPSHOT/maven-metadata.xml
+Uploading to nexus: http://localhost:8081/repository/maven-snapshots/org/springframework/samples/spring-petclinic/3.0.2-SNAPSHOT/spring-petclinic-3.0.2-20201212.042027-1.jar
+Uploaded to nexus: http://localhost:8081/repository/maven-snapshots/org/springframework/samples/spring-petclinic/3.0.2-SNAPSHOT/spring-petclinic-3.0.2-20201212.042027-1.jar (50 MB at 22 MB/s)
+Uploading to nexus: http://localhost:8081/repository/maven-snapshots/org/springframework/samples/spring-petclinic/3.0.2-SNAPSHOT/spring-petclinic-3.0.2-20201212.042027-1.pom
+Uploaded to nexus: http://localhost:8081/repository/maven-snapshots/org/springframework/samples/spring-petclinic/3.0.2-SNAPSHOT/spring-petclinic-3.0.2-20201212.042027-1.pom (13 kB at 157 kB/s)
+Downloading from nexus: http://localhost:8081/repository/maven-snapshots/org/springframework/samples/spring-petclinic/maven-metadata.xml
+Uploading to nexus: http://localhost:8081/repository/maven-snapshots/org/springframework/samples/spring-petclinic/3.0.2-SNAPSHOT/maven-metadata.xml
+Uploaded to nexus: http://localhost:8081/repository/maven-snapshots/org/springframework/samples/spring-petclinic/3.0.2-SNAPSHOT/maven-metadata.xml (793 B at 11 kB/s)
+Uploading to nexus: http://localhost:8081/repository/maven-snapshots/org/springframework/samples/spring-petclinic/maven-metadata.xml
+Uploaded to nexus: http://localhost:8081/repository/maven-snapshots/org/springframework/samples/spring-petclinic/maven-metadata.xml (303 B at 3.7 kB/s)
